@@ -1,0 +1,1 @@
+# Bazel-KSP-code-generation-bug
