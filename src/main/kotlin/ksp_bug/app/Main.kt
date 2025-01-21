@@ -12,4 +12,5 @@ fun main(args: Array<String>) {
   // "Unresolved reference: GeneratedClass"
   val genCode = GeneratedClass()
   println("quote: ${genCode.quote}")
+
 }

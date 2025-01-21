@@ -13,7 +13,7 @@ module(name = "ksp_bug")
 
 bazel_dep(
     name = "rules_java",
-    version = "7.11.1",
+    version = "8.7.1",
 )
 bazel_dep(
     name = "contrib_rules_jvm",
@@ -21,11 +21,11 @@ bazel_dep(
 )
 bazel_dep(
     name = "rules_kotlin",
-    version = "2.0.0",
+    version = "2.1.0",
 )
 bazel_dep(
     name = "rules_jvm_external",
-    version = "6.4",
+    version = "6.6",
 )
 
 register_toolchains("//:ktools")
